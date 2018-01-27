@@ -1,7 +1,7 @@
 ## makeCacheMatrix and cacheSolve functions are written to calculate and cache the inverse of matrix
 ## We assume that the matrix supplied as an argument, is always invertible
 
-## makeCacheMatrix creates a mattix object whitch caches its inverse
+## makeCacheMatrix creates a matrix object whitch caches its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     invm <- NULL
